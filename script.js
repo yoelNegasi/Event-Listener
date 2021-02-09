@@ -6,7 +6,7 @@ const button4 = document.getElementById("btn4");
 button1.addEventListener("click", btnObj);
 button2.addEventListener("click", btnSkill);
 button3.addEventListener("click", btnInterest);
-button4.addEventListener('click',btnExperience)
+button4.addEventListener("click", btnExperience);
 
 function btnObj() {
   document.getElementById("obj").style.backgroundColor = "brown";
@@ -20,6 +20,7 @@ function btnInterest() {
   document.getElementById("int").innerText = "YOU JUST MISSED MY INTERESTS";
 }
 
-function btnExperience(){
-    document.
+function btnExperience() {
+  document.getElementById("exp").style.color = "gold";
+  document.getElementById("exp").style.backgroundColor = "silver";
 }

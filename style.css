@@ -1,5 +1,5 @@
 #overall {
-  background-color: rgb(101, 14, 128);
+  background-color: rgb(91, 73, 97);
   border: solid 2px;
   display: flex;
   flex-direction: row;
@@ -14,6 +14,7 @@
 }
 h2 {
   text-align: center;
+  color: darkorange;
 }
 .btn {
   background-color: rgb(62, 62, 160);
