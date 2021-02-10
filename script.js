@@ -21,6 +21,5 @@ function btnInterest() {
 }
 
 function btnExperience() {
-  document.getElementById("exp").style.color = "gold";
-  document.getElementById("exp").style.backgroundColor = "silver";
+  document.getElementById("exp").style.color = "red";
 }
